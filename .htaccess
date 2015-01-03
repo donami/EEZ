@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /~mahv14/oophp/projekt/public/
+RewriteBase /eez/public/
 
 RewriteRule ^css\/(.*)$ css/$1 [L]
 RewriteRule ^img\/(.*)$ img/$1 [L]
