@@ -1,0 +1,13 @@
+RewriteEngine On
+RewriteBase /~mahv14/oophp/projekt/public/
+
+RewriteRule ^css\/(.*)$ css/$1 [L]
+RewriteRule ^img\/(.*)$ img/$1 [L]
+RewriteRule ^js\/(.*)$ js/$1 [L]
+
+RewriteRule ^$ index.php [L]
+RewriteRule ^index$ index.php [L]
+
+
+# http://httpd.apache.org/docs/current/mod/core.html#errordocument
+ErrorDocument 404 /oophp/projekt/404.php

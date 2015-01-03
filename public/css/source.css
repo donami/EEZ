@@ -1,0 +1,33 @@
+/* View source */
+div.container {
+    min-width: 40em;
+}
+div.header {
+    color: #000;
+    border: solid 1px #999;
+    border-bottom: 0px;
+    background: #eee;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}   
+div.rows {
+    float: left;
+    text-align: right;
+    color: #999;
+    border: solid 1px #999;
+    background: #eee;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+}   
+div.rows a:link,
+div.rows a:visited,
+div.rows a:hover,
+div.rows a:active  { 
+    text-decoration:none; 
+    color: inherit;
+}
+div.code {
+    white-space: nowrap;
+    border: solid 1px #999;
+    background: #f9f9f9;
+    padding: 0.5em 0.5em 0.5em 0.5em;
+    overflow:auto;
+}
