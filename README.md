@@ -307,18 +307,24 @@ you like and you would use the "|" character to seperate them</p>
 
 <p>There is an Image class in EEZ that allows you to quickly generate thumbnails for your pictures on the fly.</p>
 
-<pre><code>image.php?src=image.jpg&amp;save=jpg&amp;width=120&amp;resize</code></pre>
+<pre><code>img.php?src=image.jpg&amp;width=120</code></pre>
 
 <p>The code above is what you need to resize the width of the image to 120. However there are many more options</p>
 
-<h3>Keeping aspect ratio</h3>
-
-<p>Add the <em>aspect-ratio</em> parameter to maintain aspect ratio</p>
-
-<pre><code>image.php?src=image.jpg&amp;save=jpg&amp;width=120&amp;resize&amp;aspect-ratio</code></pre>
-
 <h3>Cropping the image</h3>
 
-<p>To crop the image you need to set both width and height and use the <em>crop</em> parameter instead of <em>resize</em></p>
+<p>To crop the image you need to set both width and height and use the <em>crop-to-fit</em> parameter instead of <em>resize</em></p>
 
-<pre><code>image.php?src=image.jpg&amp;save=jpg&amp;width=120&amp;height=120&amp;crop</code></pre>
+<pre><code>img.php?src=image.jpg&amp;width=120&amp;height=120&amp;crop-to-fit</code></pre>
+
+<h3>Show verbose mode</h3>
+
+<p>To use the verbose mode simply add the <em>verbose</em> parameter.
+
+<pre><code>img.php?src=image.jpg&amp;width=120&amp;height=120&amp;crop-to-fit&amp;verbose</code></pre>
+
+<h3>Save the image as a different file format</h3>
+
+<p>If you want to save the image as another file format you are to use the <em>save-as</em> option.</p>
+
+<pre><code>img.php?src=image.jpg&amp;width=120&amp;save-as=png</code></pre>
