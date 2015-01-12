@@ -1,5 +1,5 @@
 <?php
-class Filter {
+class HTMLFilter {
 	private $text;
 	private $filter;
 
